@@ -98,11 +98,21 @@ A pre-rendered version of the analysis (with all outputs and plots) is also incl
 ## Sample Outputs
 
 The notebook produces several visualizations central to the analysis:
-- **Explained variance plot** — shows how many principal components are needed to capture most of the variance in the demographic data, justifying the dimensionality reduction step
 - **Cluster size comparison chart** — bar chart comparing what % of the general population falls into each cluster vs. what % of customers fall into each cluster
-- **Segment over/under-representation summary** — highlights which cluster(s) are most disproportionately customers (the best acquisition targets) and which are most disproportionately *not* customers (segments to deprioritize)
 
-*(Add screenshots of these specific charts from your notebook here — they're the most persuasive part of the README for anyone skimming it.)*
+<img width="660" height="534" alt="Screenshot 2026-06-30 at 5 09 54 PM" src="https://github.com/user-attachments/assets/e419a799-ece4-4e0f-a7ca-655f0228c9d5" />
+
+<img width="699" height="674" alt="Screenshot 2026-06-30 at 5 10 41 PM" src="https://github.com/user-attachments/assets/ac701efc-bbfc-4cc4-9777-a2c09b2f9154" />
+
+  
+- **Feature Weights** — shows how a princicle componante is made up of different attributes (the attributes are in German)
+
+<img width="772" height="792" alt="Screenshot 2026-06-30 at 5 12 22 PM" src="https://github.com/user-attachments/assets/0f66881e-c380-4a77-ac2b-e99035f84c2e" />
+
+- **Customer Features at an Overrepresented Cluster** - shows how the different features in cluster 6 ( also shown in notebook is cluster 5) and how they are represented in the cluster
+
+<img width="821" height="717" alt="Screenshot 2026-06-30 at 5 11 55 PM" src="https://github.com/user-attachments/assets/57774730-dc9c-464c-8870-4670da6197ad" />
+
 
 ---
 
